@@ -8,20 +8,82 @@
 
 /* Begin PBXBuildFile section */
 		2E1F5FA41EE018DF00293C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5FA31EE018DF00293C47 /* AppDelegate.swift */; };
-		2E1F5FA61EE018DF00293C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5FA51EE018DF00293C47 /* ViewController.swift */; };
 		2E1F5FA91EE018DF00293C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F5FA71EE018DF00293C47 /* Main.storyboard */; };
 		2E1F5FAB1EE018DF00293C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F5FAA1EE018DF00293C47 /* Assets.xcassets */; };
 		2E1F5FAE1EE018DF00293C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F5FAC1EE018DF00293C47 /* LaunchScreen.storyboard */; };
+		2E1F5FB61EE01A5B00293C47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5FB51EE01A5B00293C47 /* LoginViewController.swift */; };
+		2E1F60041EE0395A00293C47 /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5FFE1EE0395A00293C47 /* BasicInfoViewController.swift */; };
+		2E1F60051EE0395A00293C47 /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5FFF1EE0395A00293C47 /* GradeViewController.swift */; };
+		2E1F60061EE0395A00293C47 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60001EE0395A00293C47 /* TestViewController.swift */; };
+		2E1F60071EE0395A00293C47 /* TeacherNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60011EE0395A00293C47 /* TeacherNoteViewController.swift */; };
+		2E1F60081EE0395A00293C47 /* FeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60021EE0395A00293C47 /* FeeDetailViewController.swift */; };
+		2E1F60091EE0395A00293C47 /* BusFareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60031EE0395A00293C47 /* BusFareViewController.swift */; };
+		2E1F60531EE0398400293C47 /* BasicInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F604D1EE0398400293C47 /* BasicInfoTableViewCell.swift */; };
+		2E1F60541EE0398400293C47 /* GradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F604E1EE0398400293C47 /* GradeTableViewCell.swift */; };
+		2E1F60551EE0398400293C47 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F604F1EE0398400293C47 /* TestTableViewCell.swift */; };
+		2E1F60561EE0398400293C47 /* TeacherNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60501EE0398400293C47 /* TeacherNoteTableViewCell.swift */; };
+		2E1F60571EE0398400293C47 /* FeeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60511EE0398400293C47 /* FeeDetailTableViewCell.swift */; };
+		2E1F60581EE0398400293C47 /* BusFareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60521EE0398400293C47 /* BusFareTableViewCell.swift */; };
+		2E1F605E1EE0399A00293C47 /* student-detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F605A1EE0399A00293C47 /* student-detail.json */; };
+		2E1F60601EE0399A00293C47 /* teacher.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F605C1EE0399A00293C47 /* teacher.json */; };
+		2E1F60611EE0399A00293C47 /* notice.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F605D1EE0399A00293C47 /* notice.json */; };
+		2E1F60651EE03A5700293C47 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60631EE03A5700293C47 /* CalendarViewController.swift */; };
+		2E1F60661EE03A5700293C47 /* CalanderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60641EE03A5700293C47 /* CalanderTableViewCell.swift */; };
+		2E1F60681EE03A6800293C47 /* TeacherDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60671EE03A6800293C47 /* TeacherDashViewController.swift */; };
+		2E1F606A1EE03A7900293C47 /* StudentAttendantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F60691EE03A7900293C47 /* StudentAttendantTableViewCell.swift */; };
+		2E9DE0631EE148DA007CED07 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0621EE148DA007CED07 /* SWRevealViewController.m */; };
+		2E9DE0691EE14A96007CED07 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0661EE14A96007CED07 /* TeacherViewController.swift */; };
+		2E9DE06A1EE14A96007CED07 /* TecherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0671EE14A96007CED07 /* TecherTableViewCell.swift */; };
+		2E9DE06B1EE14A96007CED07 /* TeacherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0681EE14A96007CED07 /* TeacherCollectionViewCell.swift */; };
+		2E9DE06E1EE14F69007CED07 /* teacherNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE06D1EE14F69007CED07 /* teacherNoticeViewController.swift */; };
+		2E9DE0711EE14FA2007CED07 /* teacherNoticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0701EE14FA2007CED07 /* teacherNoticeTableViewCell.swift */; };
+		2E9DE0741EE1589A007CED07 /* TeacherInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0731EE1589A007CED07 /* TeacherInfoViewController.swift */; };
+		2E9DE0781EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0771EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift */; };
+		2E9DE07A1EE16092007CED07 /* TeacherInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0791EE16092007CED07 /* TeacherInfoTableViewCell.swift */; };
+		6A22029EC669ABF3AC5E5E66 /* Pods_KaKaaKi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FFEDD024670CA1545BBEA8 /* Pods_KaKaaKi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18FFEDD024670CA1545BBEA8 /* Pods_KaKaaKi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaKaaKi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1F5FA01EE018DF00293C47 /* KaKaaKi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKaaKi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1F5FA31EE018DF00293C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E1F5FA51EE018DF00293C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E1F5FA81EE018DF00293C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E1F5FAA1EE018DF00293C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1F5FAD1EE018DF00293C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E1F5FAF1EE018DF00293C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1F5FB51EE01A5B00293C47 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E1F5FFE1EE0395A00293C47 /* BasicInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
+		2E1F5FFF1EE0395A00293C47 /* GradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
+		2E1F60001EE0395A00293C47 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		2E1F60011EE0395A00293C47 /* TeacherNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherNoteViewController.swift; sourceTree = "<group>"; };
+		2E1F60021EE0395A00293C47 /* FeeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeeDetailViewController.swift; sourceTree = "<group>"; };
+		2E1F60031EE0395A00293C47 /* BusFareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusFareViewController.swift; sourceTree = "<group>"; };
+		2E1F604D1EE0398400293C47 /* BasicInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F604E1EE0398400293C47 /* GradeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F604F1EE0398400293C47 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F60501EE0398400293C47 /* TeacherNoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherNoteTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F60511EE0398400293C47 /* FeeDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeeDetailTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F60521EE0398400293C47 /* BusFareTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusFareTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F605A1EE0399A00293C47 /* student-detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "student-detail.json"; sourceTree = "<group>"; };
+		2E1F605C1EE0399A00293C47 /* teacher.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teacher.json; sourceTree = "<group>"; };
+		2E1F605D1EE0399A00293C47 /* notice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notice.json; sourceTree = "<group>"; };
+		2E1F60631EE03A5700293C47 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2E1F60641EE03A5700293C47 /* CalanderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalanderTableViewCell.swift; sourceTree = "<group>"; };
+		2E1F60671EE03A6800293C47 /* TeacherDashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherDashViewController.swift; sourceTree = "<group>"; };
+		2E1F60691EE03A7900293C47 /* StudentAttendantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentAttendantTableViewCell.swift; sourceTree = "<group>"; };
+		2E9DE0601EE148D9007CED07 /* KaKaaKi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaKaaKi-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E9DE0611EE148DA007CED07 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2E9DE0621EE148DA007CED07 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2E9DE0661EE14A96007CED07 /* TeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		2E9DE0671EE14A96007CED07 /* TecherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TecherTableViewCell.swift; sourceTree = "<group>"; };
+		2E9DE0681EE14A96007CED07 /* TeacherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E9DE06D1EE14F69007CED07 /* teacherNoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teacherNoticeViewController.swift; sourceTree = "<group>"; };
+		2E9DE0701EE14FA2007CED07 /* teacherNoticeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teacherNoticeTableViewCell.swift; sourceTree = "<group>"; };
+		2E9DE0731EE1589A007CED07 /* TeacherInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoViewController.swift; sourceTree = "<group>"; };
+		2E9DE0771EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E9DE0791EE16092007CED07 /* TeacherInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoTableViewCell.swift; sourceTree = "<group>"; };
+		612E67DEA95D06B851E8F870 /* Pods-KaKaaKi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaKaaKi.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaKaaKi/Pods-KaKaaKi.release.xcconfig"; sourceTree = "<group>"; };
+		CF27C89E7BA286C412337659 /* Pods-KaKaaKi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaKaaKi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaKaaKi/Pods-KaKaaKi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A22029EC669ABF3AC5E5E66 /* Pods_KaKaaKi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +103,8 @@
 			children = (
 				2E1F5FA21EE018DF00293C47 /* KaKaaKi */,
 				2E1F5FA11EE018DF00293C47 /* Products */,
+				827E0097FA486B7E2B7310DB /* Pods */,
+				4FDD857A48E96C3CAD8668CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +119,149 @@
 		2E1F5FA21EE018DF00293C47 /* KaKaaKi */ = {
 			isa = PBXGroup;
 			children = (
+				2E9DE0641EE148FC007CED07 /* SWReveal VC */,
+				2E9DE0601EE148D9007CED07 /* KaKaaKi-Bridging-Header.h */,
+				2E1F60591EE0399000293C47 /* JSON */,
+				2E1F5FB81EE0245700293C47 /* Parent Dashboard */,
+				2E1F5FB71EE0243F00293C47 /* Teacher Dashboard */,
 				2E1F5FA31EE018DF00293C47 /* AppDelegate.swift */,
-				2E1F5FA51EE018DF00293C47 /* ViewController.swift */,
+				2E1F5FB51EE01A5B00293C47 /* LoginViewController.swift */,
 				2E1F5FA71EE018DF00293C47 /* Main.storyboard */,
 				2E1F5FAA1EE018DF00293C47 /* Assets.xcassets */,
 				2E1F5FAC1EE018DF00293C47 /* LaunchScreen.storyboard */,
 				2E1F5FAF1EE018DF00293C47 /* Info.plist */,
 			);
 			path = KaKaaKi;
+			sourceTree = "<group>";
+		};
+		2E1F5FB71EE0243F00293C47 /* Teacher Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2E9DE0721EE15833007CED07 /* Info */,
+				2E9DE06C1EE14B1D007CED07 /* Attendance */,
+			);
+			name = "Teacher Dashboard";
+			sourceTree = "<group>";
+		};
+		2E1F5FB81EE0245700293C47 /* Parent Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F5FFD1EE0393A00293C47 /* Information VC */,
+				2E9DE0651EE14A7F007CED07 /* Teacher VC */,
+				2E1F60621EE03A5000293C47 /* Calendar VC */,
+			);
+			name = "Parent Dashboard";
+			sourceTree = "<group>";
+		};
+		2E1F5FFD1EE0393A00293C47 /* Information VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F5FFE1EE0395A00293C47 /* BasicInfoViewController.swift */,
+				2E1F5FFF1EE0395A00293C47 /* GradeViewController.swift */,
+				2E1F60001EE0395A00293C47 /* TestViewController.swift */,
+				2E1F60011EE0395A00293C47 /* TeacherNoteViewController.swift */,
+				2E1F60021EE0395A00293C47 /* FeeDetailViewController.swift */,
+				2E1F60031EE0395A00293C47 /* BusFareViewController.swift */,
+				2E1F604C1EE0397600293C47 /* Infomration TVCell */,
+			);
+			name = "Information VC";
+			sourceTree = "<group>";
+		};
+		2E1F604C1EE0397600293C47 /* Infomration TVCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F604D1EE0398400293C47 /* BasicInfoTableViewCell.swift */,
+				2E1F604E1EE0398400293C47 /* GradeTableViewCell.swift */,
+				2E1F604F1EE0398400293C47 /* TestTableViewCell.swift */,
+				2E1F60501EE0398400293C47 /* TeacherNoteTableViewCell.swift */,
+				2E1F60511EE0398400293C47 /* FeeDetailTableViewCell.swift */,
+				2E1F60521EE0398400293C47 /* BusFareTableViewCell.swift */,
+			);
+			name = "Infomration TVCell";
+			sourceTree = "<group>";
+		};
+		2E1F60591EE0399000293C47 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F605A1EE0399A00293C47 /* student-detail.json */,
+				2E1F605C1EE0399A00293C47 /* teacher.json */,
+				2E1F605D1EE0399A00293C47 /* notice.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		2E1F60621EE03A5000293C47 /* Calendar VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F60631EE03A5700293C47 /* CalendarViewController.swift */,
+				2E1F60641EE03A5700293C47 /* CalanderTableViewCell.swift */,
+			);
+			name = "Calendar VC";
+			sourceTree = "<group>";
+		};
+		2E9DE0641EE148FC007CED07 /* SWReveal VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E9DE0611EE148DA007CED07 /* SWRevealViewController.h */,
+				2E9DE0621EE148DA007CED07 /* SWRevealViewController.m */,
+			);
+			name = "SWReveal VC";
+			sourceTree = "<group>";
+		};
+		2E9DE0651EE14A7F007CED07 /* Teacher VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E9DE0661EE14A96007CED07 /* TeacherViewController.swift */,
+				2E9DE0671EE14A96007CED07 /* TecherTableViewCell.swift */,
+				2E9DE0681EE14A96007CED07 /* TeacherCollectionViewCell.swift */,
+			);
+			name = "Teacher VC";
+			sourceTree = "<group>";
+		};
+		2E9DE06C1EE14B1D007CED07 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F60671EE03A6800293C47 /* TeacherDashViewController.swift */,
+				2E1F60691EE03A7900293C47 /* StudentAttendantTableViewCell.swift */,
+			);
+			name = Attendance;
+			sourceTree = "<group>";
+		};
+		2E9DE06F1EE14F77007CED07 /* notice VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E9DE06D1EE14F69007CED07 /* teacherNoticeViewController.swift */,
+				2E9DE0701EE14FA2007CED07 /* teacherNoticeTableViewCell.swift */,
+			);
+			name = "notice VC";
+			sourceTree = "<group>";
+		};
+		2E9DE0721EE15833007CED07 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				2E9DE0731EE1589A007CED07 /* TeacherInfoViewController.swift */,
+				2E9DE0791EE16092007CED07 /* TeacherInfoTableViewCell.swift */,
+				2E9DE0771EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift */,
+				2E9DE06F1EE14F77007CED07 /* notice VC */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		4FDD857A48E96C3CAD8668CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FFEDD024670CA1545BBEA8 /* Pods_KaKaaKi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		827E0097FA486B7E2B7310DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF27C89E7BA286C412337659 /* Pods-KaKaaKi.debug.xcconfig */,
+				612E67DEA95D06B851E8F870 /* Pods-KaKaaKi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E1F5FB21EE018DF00293C47 /* Build configuration list for PBXNativeTarget "KaKaaKi" */;
 			buildPhases = (
+				C2B8C7A6A3EAED621E049B12 /* [CP] Check Pods Manifest.lock */,
 				2E1F5F9C1EE018DF00293C47 /* Sources */,
 				2E1F5F9D1EE018DF00293C47 /* Frameworks */,
 				2E1F5F9E1EE018DF00293C47 /* Resources */,
+				06D305306981B6F3E1C5170E /* [CP] Embed Pods Frameworks */,
+				1E4359FC131E53F74BD4611A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +299,7 @@
 				TargetAttributes = {
 					2E1F5F9F1EE018DF00293C47 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,20 +328,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1F5FAE1EE018DF00293C47 /* LaunchScreen.storyboard in Resources */,
+				2E1F60611EE0399A00293C47 /* notice.json in Resources */,
+				2E1F60601EE0399A00293C47 /* teacher.json in Resources */,
 				2E1F5FAB1EE018DF00293C47 /* Assets.xcassets in Resources */,
+				2E1F605E1EE0399A00293C47 /* student-detail.json in Resources */,
 				2E1F5FA91EE018DF00293C47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06D305306981B6F3E1C5170E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaKaaKi/Pods-KaKaaKi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E4359FC131E53F74BD4611A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaKaaKi/Pods-KaKaaKi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B8C7A6A3EAED621E049B12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E1F5F9C1EE018DF00293C47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E1F5FA61EE018DF00293C47 /* ViewController.swift in Sources */,
+				2E9DE0711EE14FA2007CED07 /* teacherNoticeTableViewCell.swift in Sources */,
+				2E1F60651EE03A5700293C47 /* CalendarViewController.swift in Sources */,
+				2E9DE0631EE148DA007CED07 /* SWRevealViewController.m in Sources */,
+				2E1F5FB61EE01A5B00293C47 /* LoginViewController.swift in Sources */,
+				2E1F60041EE0395A00293C47 /* BasicInfoViewController.swift in Sources */,
+				2E9DE06E1EE14F69007CED07 /* teacherNoticeViewController.swift in Sources */,
+				2E9DE07A1EE16092007CED07 /* TeacherInfoTableViewCell.swift in Sources */,
+				2E1F606A1EE03A7900293C47 /* StudentAttendantTableViewCell.swift in Sources */,
+				2E9DE0741EE1589A007CED07 /* TeacherInfoViewController.swift in Sources */,
+				2E1F60581EE0398400293C47 /* BusFareTableViewCell.swift in Sources */,
+				2E1F60561EE0398400293C47 /* TeacherNoteTableViewCell.swift in Sources */,
+				2E1F60081EE0395A00293C47 /* FeeDetailViewController.swift in Sources */,
+				2E1F60661EE03A5700293C47 /* CalanderTableViewCell.swift in Sources */,
+				2E1F60531EE0398400293C47 /* BasicInfoTableViewCell.swift in Sources */,
+				2E1F60551EE0398400293C47 /* TestTableViewCell.swift in Sources */,
 				2E1F5FA41EE018DF00293C47 /* AppDelegate.swift in Sources */,
+				2E9DE06A1EE14A96007CED07 /* TecherTableViewCell.swift in Sources */,
+				2E1F60681EE03A6800293C47 /* TeacherDashViewController.swift in Sources */,
+				2E1F60061EE0395A00293C47 /* TestViewController.swift in Sources */,
+				2E1F60091EE0395A00293C47 /* BusFareViewController.swift in Sources */,
+				2E1F60051EE0395A00293C47 /* GradeViewController.swift in Sources */,
+				2E1F60071EE0395A00293C47 /* TeacherNoteViewController.swift in Sources */,
+				2E9DE0691EE14A96007CED07 /* TeacherViewController.swift in Sources */,
+				2E1F60541EE0398400293C47 /* GradeTableViewCell.swift in Sources */,
+				2E1F60571EE0398400293C47 /* FeeDetailTableViewCell.swift in Sources */,
+				2E9DE06B1EE14A96007CED07 /* TeacherCollectionViewCell.swift in Sources */,
+				2E9DE0781EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,24 +540,31 @@
 		};
 		2E1F5FB31EE018DF00293C47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF27C89E7BA286C412337659 /* Pods-KaKaaKi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KaKaaKi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.Impactit.KaKaaKi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KaKaaKi/KaKaaKi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2E1F5FB41EE018DF00293C47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612E67DEA95D06B851E8F870 /* Pods-KaKaaKi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KaKaaKi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.Impactit.KaKaaKi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KaKaaKi/KaKaaKi-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +588,7 @@
 				2E1F5FB41EE018DF00293C47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

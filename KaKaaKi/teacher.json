@@ -1,0 +1,13 @@
+{
+  "teachers": {
+    "id": 11,
+    "fullname": "Bhagwam Dangol",
+    "address": "Palungsikarkot-7, Raghabmandir, Bhojpur 17995",
+    "gender": "M",
+    "mobileno": "9841525452",
+    "email": "shrestha.shreya@kharel.com.np",
+    "contact": "9841525452",
+    "image": "http://lorempixel.com/640/480/",
+    "subject": "Science"
+  }
+ }

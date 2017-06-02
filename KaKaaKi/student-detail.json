@@ -1,0 +1,25 @@
+
+{
+  "student": {
+    "id": 21,
+    "student_code": "2",
+    "fullname": "Aaditya Bhusal",
+    "gender": "",
+    "classroom": "II",
+    "section": "B",
+    "dob": "1985-01-01",
+    "roll_no": 7,
+    "address": "Dorpattan-3, Lamsalbazaar, Achham 41057",
+    "email": "rani87@napit.com.np",
+    "contact_no": "9841525452",
+    "image": "http://lorempixel.com/640/480/",
+    "vehicle_id": 1,
+    "pickup_time": "08:00:00",
+    "drop_time": "04:00:00",
+    "staff_name": "Santosh Kumar",
+    "staff_contact": "9854756555",
+    "guardian": "Bhagwam Dangol",
+    "gardian_occupation": "Teacher",
+    "gardian_email": "shrestha.shreya@kharel.com.np"
+  }
+}
