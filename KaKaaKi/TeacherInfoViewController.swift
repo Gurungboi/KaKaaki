@@ -20,6 +20,7 @@ class TeacherInfoViewController: UIViewController, UICollectionViewDelegate,UICo
 
 
     
+    @IBOutlet weak var btnMenu: UIBarButtonItem!
     @IBOutlet weak var infoView: UITableView!
     @IBOutlet weak var staffcollectionview: UICollectionView!
     
@@ -35,6 +36,12 @@ class TeacherInfoViewController: UIViewController, UICollectionViewDelegate,UICo
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+       
+        //SWReveal Controller
+        btnMenu.target = revealViewController()
+        btnMenu.action = #selector(SWRevealViewController.revealToggle(_:))
+        
+        
         getTeacherInfo()
         
         staffcollectionview.delegate = self

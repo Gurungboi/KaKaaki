@@ -35,12 +35,10 @@ class TeacherViewController: UIViewController, UICollectionViewDelegate,UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
         getTeacherInfo()
+        
         // Do any additional setup after loading the view.
         staffcollectionview.delegate = self
         staffcollectionview.dataSource = self
-//
-//        informationtableview.delegate = self
-//        informationtableview.dataSource = self
         
         btnmenu.target = self.revealViewController()
         btnmenu.action = #selector(SWRevealViewController.revealToggle(_:))

@@ -15,11 +15,16 @@ class TeacherDashViewController: UIViewController, UITableViewDelegate, UITableV
     @IBOutlet weak var lbldate: UILabel!
     @IBOutlet weak var studentAttendantView: UITableView!
     
+    @IBOutlet weak var btnMenu: UIBarButtonItem!
     var studentname = ["Prakash Jung Rana","Prakash Jung Rana","Prakash Jung Rana","Prakash Jung Rana","Prakash Jung Rana"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //SWReavel Controller
+        btnMenu.target = revealViewController()
+        btnMenu.action = #selector(SWRevealViewController.revealToggle(_:))
+        
         // Do any additional setup after loading the view.
         //lbldate.layer.cornerRadius = 20
         //lbldate.layer.borderWidth = 2

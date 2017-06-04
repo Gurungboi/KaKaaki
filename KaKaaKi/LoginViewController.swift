@@ -26,14 +26,14 @@ class LoginViewController: UIViewController {
         {
             print("Teachers")
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            let teacherController = storyBoard.instantiateViewController(withIdentifier: "teacherDashBoard")
+            let teacherController = storyBoard.instantiateViewController(withIdentifier: "teacherMain")
             self.present(teacherController, animated: true, completion: nil)
         }
         else if (username == "parent" && password == "parent")
         {
             print("Parents")
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            let parentController = storyBoard.instantiateViewController(withIdentifier: "parentDashBoard")
+            let parentController = storyBoard.instantiateViewController(withIdentifier: "parentMain")
             self.present(parentController, animated: true, completion: nil)
         }
         else if((username?.isEmpty)! || (password?.isEmpty)!)

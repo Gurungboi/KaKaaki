@@ -40,6 +40,14 @@
 		2E9DE0741EE1589A007CED07 /* TeacherInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0731EE1589A007CED07 /* TeacherInfoViewController.swift */; };
 		2E9DE0781EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0771EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift */; };
 		2E9DE07A1EE16092007CED07 /* TeacherInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DE0791EE16092007CED07 /* TeacherInfoTableViewCell.swift */; };
+		2EA9F0481EE3DF14003A16D8 /* ParentsDashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F0471EE3DF14003A16D8 /* ParentsDashBoardViewController.swift */; };
+		2EA9F04B1EE3DFF9003A16D8 /* parentsNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F04A1EE3DFF9003A16D8 /* parentsNoticeViewController.swift */; };
+		2EA9F04D1EE3E00D003A16D8 /* parentsNoticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F04C1EE3E00D003A16D8 /* parentsNoticeTableViewCell.swift */; };
+		2EA9F04F1EE3E230003A16D8 /* pnotice.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EA9F04E1EE3E230003A16D8 /* pnotice.json */; };
+		2EA9F0521EE3E676003A16D8 /* TeacherMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F0511EE3E676003A16D8 /* TeacherMenuTableViewCell.swift */; };
+		2EA9F0541EE3E6D5003A16D8 /* TeacherMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F0531EE3E6D5003A16D8 /* TeacherMenuViewController.swift */; };
+		2EA9F0571EE3F3DB003A16D8 /* ParentMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F0561EE3F3DB003A16D8 /* ParentMenuViewController.swift */; };
+		2EA9F0591EE3F3EE003A16D8 /* ParentMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9F0581EE3F3EE003A16D8 /* ParentMenuTableViewCell.swift */; };
 		6A22029EC669ABF3AC5E5E66 /* Pods_KaKaaKi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FFEDD024670CA1545BBEA8 /* Pods_KaKaaKi.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +90,14 @@
 		2E9DE0731EE1589A007CED07 /* TeacherInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoViewController.swift; sourceTree = "<group>"; };
 		2E9DE0771EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoCollectionViewCell.swift; sourceTree = "<group>"; };
 		2E9DE0791EE16092007CED07 /* TeacherInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherInfoTableViewCell.swift; sourceTree = "<group>"; };
+		2EA9F0471EE3DF14003A16D8 /* ParentsDashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentsDashBoardViewController.swift; sourceTree = "<group>"; };
+		2EA9F04A1EE3DFF9003A16D8 /* parentsNoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parentsNoticeViewController.swift; sourceTree = "<group>"; };
+		2EA9F04C1EE3E00D003A16D8 /* parentsNoticeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parentsNoticeTableViewCell.swift; sourceTree = "<group>"; };
+		2EA9F04E1EE3E230003A16D8 /* pnotice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pnotice.json; sourceTree = "<group>"; };
+		2EA9F0511EE3E676003A16D8 /* TeacherMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherMenuTableViewCell.swift; sourceTree = "<group>"; };
+		2EA9F0531EE3E6D5003A16D8 /* TeacherMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherMenuViewController.swift; sourceTree = "<group>"; };
+		2EA9F0561EE3F3DB003A16D8 /* ParentMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentMenuViewController.swift; sourceTree = "<group>"; };
+		2EA9F0581EE3F3EE003A16D8 /* ParentMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentMenuTableViewCell.swift; sourceTree = "<group>"; };
 		612E67DEA95D06B851E8F870 /* Pods-KaKaaKi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaKaaKi.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaKaaKi/Pods-KaKaaKi.release.xcconfig"; sourceTree = "<group>"; };
 		CF27C89E7BA286C412337659 /* Pods-KaKaaKi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaKaaKi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaKaaKi/Pods-KaKaaKi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +153,7 @@
 		2E1F5FB71EE0243F00293C47 /* Teacher Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				2EA9F0501EE3E65E003A16D8 /* TeacherMenu VC */,
 				2E9DE0721EE15833007CED07 /* Info */,
 				2E9DE06C1EE14B1D007CED07 /* Attendance */,
 			);
@@ -146,6 +163,9 @@
 		2E1F5FB81EE0245700293C47 /* Parent Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				2EA9F0551EE3F395003A16D8 /* ParentMenu VC */,
+				2EA9F0471EE3DF14003A16D8 /* ParentsDashBoardViewController.swift */,
+				2EA9F0491EE3DFE5003A16D8 /* Parents Notice VC */,
 				2E1F5FFD1EE0393A00293C47 /* Information VC */,
 				2E9DE0651EE14A7F007CED07 /* Teacher VC */,
 				2E1F60621EE03A5000293C47 /* Calendar VC */,
@@ -186,6 +206,7 @@
 				2E1F605A1EE0399A00293C47 /* student-detail.json */,
 				2E1F605C1EE0399A00293C47 /* teacher.json */,
 				2E1F605D1EE0399A00293C47 /* notice.json */,
+				2EA9F04E1EE3E230003A16D8 /* pnotice.json */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -245,6 +266,33 @@
 				2E9DE06F1EE14F77007CED07 /* notice VC */,
 			);
 			name = Info;
+			sourceTree = "<group>";
+		};
+		2EA9F0491EE3DFE5003A16D8 /* Parents Notice VC */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9F04A1EE3DFF9003A16D8 /* parentsNoticeViewController.swift */,
+				2EA9F04C1EE3E00D003A16D8 /* parentsNoticeTableViewCell.swift */,
+			);
+			name = "Parents Notice VC";
+			sourceTree = "<group>";
+		};
+		2EA9F0501EE3E65E003A16D8 /* TeacherMenu VC */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9F0531EE3E6D5003A16D8 /* TeacherMenuViewController.swift */,
+				2EA9F0511EE3E676003A16D8 /* TeacherMenuTableViewCell.swift */,
+			);
+			name = "TeacherMenu VC";
+			sourceTree = "<group>";
+		};
+		2EA9F0551EE3F395003A16D8 /* ParentMenu VC */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9F0561EE3F3DB003A16D8 /* ParentMenuViewController.swift */,
+				2EA9F0581EE3F3EE003A16D8 /* ParentMenuTableViewCell.swift */,
+			);
+			name = "ParentMenu VC";
 			sourceTree = "<group>";
 		};
 		4FDD857A48E96C3CAD8668CC /* Frameworks */ = {
@@ -331,6 +379,7 @@
 				2E1F60611EE0399A00293C47 /* notice.json in Resources */,
 				2E1F60601EE0399A00293C47 /* teacher.json in Resources */,
 				2E1F5FAB1EE018DF00293C47 /* Assets.xcassets in Resources */,
+				2EA9F04F1EE3E230003A16D8 /* pnotice.json in Resources */,
 				2E1F605E1EE0399A00293C47 /* student-detail.json in Resources */,
 				2E1F5FA91EE018DF00293C47 /* Main.storyboard in Resources */,
 			);
@@ -396,20 +445,26 @@
 				2E9DE0631EE148DA007CED07 /* SWRevealViewController.m in Sources */,
 				2E1F5FB61EE01A5B00293C47 /* LoginViewController.swift in Sources */,
 				2E1F60041EE0395A00293C47 /* BasicInfoViewController.swift in Sources */,
+				2EA9F0571EE3F3DB003A16D8 /* ParentMenuViewController.swift in Sources */,
 				2E9DE06E1EE14F69007CED07 /* teacherNoticeViewController.swift in Sources */,
+				2EA9F04D1EE3E00D003A16D8 /* parentsNoticeTableViewCell.swift in Sources */,
 				2E9DE07A1EE16092007CED07 /* TeacherInfoTableViewCell.swift in Sources */,
 				2E1F606A1EE03A7900293C47 /* StudentAttendantTableViewCell.swift in Sources */,
 				2E9DE0741EE1589A007CED07 /* TeacherInfoViewController.swift in Sources */,
+				2EA9F0541EE3E6D5003A16D8 /* TeacherMenuViewController.swift in Sources */,
+				2EA9F0591EE3F3EE003A16D8 /* ParentMenuTableViewCell.swift in Sources */,
 				2E1F60581EE0398400293C47 /* BusFareTableViewCell.swift in Sources */,
 				2E1F60561EE0398400293C47 /* TeacherNoteTableViewCell.swift in Sources */,
 				2E1F60081EE0395A00293C47 /* FeeDetailViewController.swift in Sources */,
 				2E1F60661EE03A5700293C47 /* CalanderTableViewCell.swift in Sources */,
+				2EA9F0521EE3E676003A16D8 /* TeacherMenuTableViewCell.swift in Sources */,
 				2E1F60531EE0398400293C47 /* BasicInfoTableViewCell.swift in Sources */,
 				2E1F60551EE0398400293C47 /* TestTableViewCell.swift in Sources */,
 				2E1F5FA41EE018DF00293C47 /* AppDelegate.swift in Sources */,
 				2E9DE06A1EE14A96007CED07 /* TecherTableViewCell.swift in Sources */,
 				2E1F60681EE03A6800293C47 /* TeacherDashViewController.swift in Sources */,
 				2E1F60061EE0395A00293C47 /* TestViewController.swift in Sources */,
+				2EA9F04B1EE3DFF9003A16D8 /* parentsNoticeViewController.swift in Sources */,
 				2E1F60091EE0395A00293C47 /* BusFareViewController.swift in Sources */,
 				2E1F60051EE0395A00293C47 /* GradeViewController.swift in Sources */,
 				2E1F60071EE0395A00293C47 /* TeacherNoteViewController.swift in Sources */,
@@ -418,6 +473,7 @@
 				2E1F60571EE0398400293C47 /* FeeDetailTableViewCell.swift in Sources */,
 				2E9DE06B1EE14A96007CED07 /* TeacherCollectionViewCell.swift in Sources */,
 				2E9DE0781EE1601F007CED07 /* TeacherInfoCollectionViewCell.swift in Sources */,
+				2EA9F0481EE3DF14003A16D8 /* ParentsDashBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
